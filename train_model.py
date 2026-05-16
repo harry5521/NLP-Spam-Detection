@@ -3,7 +3,6 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score
 import pickle
 
-from preprocess import preprocess_text
 
 from data_pipeline import (
     load_and_process_data,
